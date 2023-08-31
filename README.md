@@ -36,16 +36,16 @@ Before you begin, ensure you have the following installed on your computer:
 
 ### Installation
 
-1. Download the project repository by either [downloading the zip file](https://github.com/theresa-whynot/developerportfolio/archive/main.zip) or using Git to [clone the repository](https://github.com/theresa-whynot/developerportfolio.git) (green "<>Code" button > Clone with HTTPS, SSH or GitHub CLI)
-2. Enter the Google API Key and Github PAT to the suggested.env file:
+1. Download the project repository by either [downloading the zip file](https://github.com/theresa-whynot/developerportfolio/archive/main.zip) or using Git to [clone the repository](https://github.com/theresa-whynot/developerportfolio.git) (green "<>Code" button > Clone with HTTPS, SSH or GitHub CLI) <br>
+2. Enter the Google API Key and Github PAT to the suggested.env file:<br>
    1. Enter the keys into the suggested.env file in the root folder of the developerportfolio-main directory.
-   2. Save and rename the suggested.env file from "suggested.env" to ".env" only.
-3. Navigate to the project directory in your terminal: **cd developerportfolio-main**
+   2. Save and rename the suggested.env file from "suggested.env" to ".env" only. <br>
+3. Navigate to the project directory in your terminal: **cd developerportfolio-main** <br>
 4. Install the project dependencies: **npm install**
    
 ### Running the App
 
-1. After installing the dependencies, start the app: **npm start**
+1. After installing the dependencies, start the app: **npm start**<br>
 2. Open your web browser and go to: [http://localhost:3000](http://localhost:3000)
 
 ---
