@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import {
     Image,
     Grid,
@@ -64,7 +64,7 @@ const HomePage = () => {
                                     <Segment.Group>
                                         <Segment color="purple" style={{ borderBottom: "1px solid #E0E0E0" }}>
                                             <h4>Technical Skills</h4>
-                                        <a href="/resume">Resume Here</a>
+                                        <Link to="/resume">Resume Here</Link>
                                         </Segment>
 
                                         <div style={{ textAlign: "center" }}>
@@ -95,12 +95,12 @@ const HomePage = () => {
                                     <Segment.Group>
                                         <Segment color="purple">
                                             <h4>Featured Project - CrowdCoin</h4>
-                                            <a href="/crowdcoin">Project Details Here</a>
+                                            <Link to="/crowdcoin">Project Details Here</Link>
                                         </Segment>
                                         <Segment>
-                                            <a href="/crowdcoin">
+                                            <Link to="/crowdcoin">
                                                 <Image src="/CrowdCoin2.png" />
-                                            </a>
+                                            </Link>>
                                         </Segment>
                                     </Segment.Group>
                                         </div>
