@@ -31,14 +31,14 @@ Once you have generated your keys, you can set them in your local environment by
    7. Click the Credentials tab.
    8. Click the Create Credentials button.
    9. Select the API Key option.
-   10. Give your key a name and click the Create button.
+   10. Give your key a name and click the Create button. Save your key in a secure location.
 
    #### REACT_APP_GITHUB_TOKEN
    1. Go to your GitHub account settings: https://github.com/settings/profile.
    2. Click on the "Developer settings" tab.
    3. Click on the "Personal access tokens" section.
    4. Click on the "Generate new token" button.
-   5. Give your token a name and click on the "Generate token" button. Save your key in a secure location.
+   5. Give your token a name and click on the "Generate token" button. Save your token in a secure location.
 
    #### .env File
    1. Enter the keys into the .env file in the root folder of the developerportfolio-main directory.
