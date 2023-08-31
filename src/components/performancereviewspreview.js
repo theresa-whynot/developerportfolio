@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import {
     Menu,
     Icon,
@@ -102,7 +103,7 @@ subsequent builds and curve ball requirements."`
             <Segment.Group>
                 <Segment color="purple">
                     <h4>Perfomance Reviews</h4>
-                    <a href="/performancereviews">IBM Performance Reviews Here</a>
+                    <Link to="/performancereviews">IBM Performance Reviews Here</Link>
                 </Segment>
                 <Segment>
                     <div className="review-content">
