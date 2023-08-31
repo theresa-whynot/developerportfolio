@@ -44,6 +44,7 @@ Once you have generated your keys, you can set them in your local environment by
 ### Running the App
 
 1. After installing the dependencies, start the app: **npm start**
+   
 2. Open your web browser and go to: [http://localhost:3000](http://localhost:3000)
 
 ---
