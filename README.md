@@ -7,8 +7,11 @@ Welcome to my developer portfolio!
 Follow these steps to set up and run my portfolio on your local machine. You can also visit "..." on the live web!
 ## Important!!!
 !!!This project requires two environment variables to be set in order to run locally!!!
+
 1)GOOGLE_BOOKS_API_KEY: This is a key that is used to access the Google Books API. You can generate your own key by following the instructions in the section below.
+
 2)GITHUB_PAT: This is a personal access token that is used to access my GitHub repository. You can generate your own token by following the instructions in the section below.
+
 Once you have generated your keys, you can set them in your local environment by following the instructions in the section below.
 
 
