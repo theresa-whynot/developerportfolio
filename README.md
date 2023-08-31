@@ -22,10 +22,16 @@ Once you have generated your keys, you can set them in your local environment by
 2. Generate and Load Google API Key and Github PAT:
 
    #### REACT_APP_GOOGLE_BOOKS
-   1. Go to the Google Books API Console: https://console.developers.google.com/apis/library/books.googleapis.com.
-   2. Click on the "Create Credentials" button.
-   3. Select the "API Key" option.
-   4. Give your key a name and click on the "Create" button. Save your key in a secure location.
+   1. Go to the Google Cloud Platform Console: https://console.cloud.google.com/.
+   2. Click the Create Project button.
+   3. Give your project a name and click the Create button.
+   4. Click the APIs & Services tab.
+   5. In the search bar, type "Books" and select the Google Books API.
+   6. Click the Enable button.
+   7. Click the Credentials tab.
+   8. Click the Create Credentials button.
+   9. Select the API Key option.
+   10. Give your key a name and click the Create button.
 
    #### REACT_APP_GITHUB_TOKEN
    1. Go to your GitHub account settings: https://github.com/settings/profile.
