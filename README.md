@@ -13,7 +13,7 @@ Before you begin, ensure you have the following installed on your computer:
 1. IMPORTANT!!! This project requires the two environment variables below to be generated in order to run locally!!!
    
    #### REACT_APP_GOOGLE_BOOKS
-   1. Go to the Google Cloud Platform Console: https://console.cloud.google.com/.
+   1. Go to the Google Cloud Platform Console: [https://console.cloud.google.com/](https://console.cloud.google.com/).
    2. Click the Create Project button.
    3. Give your project a name and click the Create button.
    4. Click the APIs & Services tab.
@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed on your computer:
    10. Give your key a name and click the Create button. Save your key in a secure location.
 
    #### REACT_APP_GITHUB_TOKEN
-   1. Go to your GitHub account settings: https://github.com/settings/profile.
+   1. Go to your GitHub account settings: [https://github.com/settings/profile](https://github.com/settings/profile).
    2. Click on the "Developer settings" tab.
    3. Click on the "Personal access tokens" section.
    4. Click on the "Generate new token" button.
@@ -42,7 +42,7 @@ Before you begin, ensure you have the following installed on your computer:
    
 2. Enter the Google API Key and Github PAT to the suggested.env file:
    1. Enter the keys into the suggested.env file in the root folder of the developerportfolio-main directory.
-   2. Save and rename the suggested.env file from "suggested.env" to ".env" only. <br><br>
+   2. Save and rename the suggested.env file from "suggested.env" to ".env" only. 
    
 3. Navigate to the project directory in your terminal: **cd developerportfolio-main** 
    
