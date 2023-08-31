@@ -4,7 +4,7 @@ Welcome to my developer portfolio!
 
 ## Getting Started
 
-Follow these steps to set up and run my portfolio on your local machine. You can also visit "..." on the live web!
+Follow these steps to set up and run my portfolio on your local machine. You can also visit "https://theresa-whynot-developer-portfolio.netlify.app/" on the live web!
 
 ## Important!!!
 !!!This project requires two environment variables to be set in order to run locally!!!
