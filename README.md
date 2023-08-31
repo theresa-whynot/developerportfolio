@@ -44,6 +44,7 @@ Once you have generated your keys, you can set them in your local environment by
    1. Enter the keys into the suggested.env file in the root folder of the developerportfolio-main directory.
    2. Save and rename the suggested.env file from "suggested.env" to ".env" only.
 
+
 3. Navigate to the project directory in your terminal: **cd developerportfolio-main**
 4. Install the project dependencies: **npm install**
    
