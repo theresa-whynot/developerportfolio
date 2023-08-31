@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed on your computer:
    2. Click on the "Developer settings" tab.
    3. Click on the "Personal access tokens" section.
    4. Click on the "Generate new token" button.
-   5. Give your token a name and click on the "Generate token" button. Save your token in a secure location. <br><br>
+   5. Give your token a name and click on the "Generate token" button. Save your token in a secure location.
 
 
 
