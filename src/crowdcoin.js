@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Layout from "./components/layout";
-import { Grid, Segment, Embed, Icon, Header } from "semantic-ui-react";
-import CrowdCoinDetails from "./components/crowdcoindetails";
-
+import { Grid, Segment, Icon, Header } from "semantic-ui-react";
+import GitHubDetails from "./components/githubdetails";
+import CrowdCoinDocumentation from "./components/crowdcoindocumentation";
 
 class CrowdCoin extends Component {
     state = {
@@ -19,32 +19,29 @@ class CrowdCoin extends Component {
                         </Header.Subheader>
                     </Header>
                 </Segment>
+
+                <div className="desktop-crowdcoin">
                 <Grid columns={2}>
                 <Grid.Column>
-                        <CrowdCoinDetails />
+                            <GitHubDetails repoTitle="crowdcoin" repoColor="green" />
                     </Grid.Column>
                     <Grid.Column>
-                      
-
-                            <Segment color="green">
-                            <h5>CrowdCoin Video Demo</h5>
-                            <Embed
-                                icon='play circle'
-                                placeholder='/CrowdCoin1.png'
-                                url='/CrowdCoinDemo.mp4'
-                            />
-                            </Segment>
-                            <Segment color="green">
-                            <h5>CrowdCoin Technical Documention</h5>
-                            <iframe src="CrowdCoin Technical Documentation.pdf" width="100%" height="600px" zoom="1" title="Crowdcoin"></iframe>
-
-                            </Segment>
-                           
-
-
+                          <CrowdCoinDocumentation/>
                     </Grid.Column>
+                    </Grid>
+                </div>
 
-                </Grid>
+                <div className="mobile-crowdcoin">
+                  
+                            <CrowdCoinDocumentation />
+
+                    <div style={{ marginTop: "15px" }}>
+                    <GitHubDetails repoTitle="crowdcoin" repoColor="green"/>
+                    </div>
+                </div>
+
+
+
             </Layout>
     );
     };

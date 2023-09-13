@@ -1,4 +1,6 @@
 
+
+/*Performance Review Animation*/
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -16,3 +18,78 @@
     opacity: 0; 
 }
 
+
+
+
+/*Desktop View*/
+@media (min-width: 769px) {
+
+    .mobile-nav-bar,
+    .mobile-year-menu,
+    .mobile-crowdcoin,
+    .mobilehomesegments {
+        display: none;
+    }
+
+    .top-segment {
+        height: 200px;
+    }
+}
+
+
+
+
+/*Mobile View*/
+    @media (max-width: 768px) {
+
+        .allnavbar {
+            left: 5%;
+        }
+
+        .desktop-nav-bar,
+        .desktop-year-menu,
+        .desktop-crowdcoin,
+        .desktophomesegments {
+            display: none;
+        }
+
+        .projectdetails,
+        .performancereviewindex,
+        .technicalskills,
+        .top-segment-group {
+            margin-top: 15px !important;
+        }
+
+        .technicalskills {
+            width: 400px;
+        }
+
+    }
+
+@media (max-width: 420px) {
+    .allnavbar {
+        left: 5%;
+    }
+
+    .desktop-nav-bar,
+    .desktop-year-menu,
+    .desktop-crowdcoin,
+    .desktophomesegments {
+        display: none;
+    }
+
+
+    .projectdetails,
+    .performancereviewindex,
+    .technicalskills,
+    .top-segment-group {
+        margin-top: 15px !important;
+        left: 5px;
+    }
+
+    .technicalskills {
+        width: 400px;
+    }
+
+
+}

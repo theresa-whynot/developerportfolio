@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Layout from "./components/layout";
-import DeveloperPortfolioDetails from "./components/developerportfoliodetails";
+import GitHubDetails from "./components/githubdetails";
 import { Segment, Icon, Header } from "semantic-ui-react";
 
 
@@ -19,7 +19,7 @@ class DeveloperPortfolio extends Component {
                         </Header.Subheader>
                     </Header>
                 </Segment>
-                <DeveloperPortfolioDetails/>
+                <GitHubDetails repoTitle="developerportfolio" repoColor="purple"/>
             </Layout>
         );
     };
