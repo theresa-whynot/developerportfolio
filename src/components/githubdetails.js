@@ -61,7 +61,7 @@ const GitHubDetails = ({ repoTitle, repoColor }) => {
                                 <Table.Row>
 
                                     <Table.HeaderCell colSpan='1'>
-                                        <div style={{ textAlign: 'center' }}>Main Branch Code Files Linked to Github</div>
+                                        <div>Main Branch Code Files Linked to Github</div>
 
                                         <div style={{ marginTop: '10px', marginLeft: '20px', display: 'flex', alignItems: 'center' }}>
                                             <Grid columns={2}>

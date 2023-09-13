@@ -43,6 +43,9 @@ const NavBar = () => {
                                 <Dropdown.Item as={Link} to="/developerportfoio">
                                     This Developer Portfolio
                                 </Dropdown.Item>
+                                <Dropdown.Item as={Link} to="/ethriver">
+                                    EthRiver - COMING SOON!
+                                </Dropdown.Item>
                                 <Dropdown.Item as={Link} to="/cryptosettle">
                                     CryptoSettle -
                                     COMING SOON!
@@ -58,12 +61,23 @@ const NavBar = () => {
                         </Dropdown>
 
                         <Menu.Menu position="right">
-                            <a href="https://www.linkedin.com/in/t-whynot" target="_blank" rel="noopener noreferrer">
-                                <Menu.Item>
+
+                           <Menu.Item>
+                            <a href="https://www.linkedin.com/in/t-whynot" target="_blank" rel="noopener noreferrer"  >
+                                
                                     <Icon color="blue" name="linkedin square" size='large' style={{ marginLeft: '10px' }} />
-                                </Menu.Item>
-                            </a>
+                                
+                                </a>
+                            </Menu.Item>
+                            <Menu.Item>
+                            <a href="https://github.com/theresa-whynot" target="_blank" rel="noopener noreferrer" >
+                                    <Icon color="black" name="github" size='large' style={{ marginLeft: '10px' }} />
+                                </a>
+                            </Menu.Item>
                         </Menu.Menu>
+
+                      
+
                     </Container>
                 </Menu>
             </div>
@@ -91,6 +105,9 @@ const NavBar = () => {
                                     <Dropdown.Item as={Link} to="/developerportfoio">
                                         This Developer Portfolio
                                     </Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/ethriver">
+                                        EthRiver
+                                    </Dropdown.Item>
                                     <Dropdown.Item as={Link} to="/cryptosettle">
                                         CryptoSettle
                                     </Dropdown.Item>
@@ -106,10 +123,18 @@ const NavBar = () => {
 
 
                             <Dropdown.Item position="right">
-                                <a href="https://www.linkedin.com/in/t-whynot" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/t-whynot" target="_blank" rel="noopener noreferrer" style={{color:"black"} }>
                                     <Icon color="blue" name="linkedin square"/>
-                                </a> LinkedIn
+                                    LinkedIn</a>
                             </Dropdown.Item>
+
+                            <Dropdown.Item position="right">
+                                <a href="https://github.com/theresa-whynot" target="_blank" rel="noopener noreferrer" style={{ color: "black" }}>
+                                    <Icon color="black" name="github" size='large' />
+                                    GitHub </a> 
+                            </Dropdown.Item>
+
+
 
         </Dropdown.Menu>
       </Dropdown>
