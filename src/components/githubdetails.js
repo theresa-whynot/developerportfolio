@@ -66,14 +66,14 @@ const GitHubDetails = ({ repoTitle, repoColor }) => {
                                         <div style={{ marginTop: '10px', marginLeft: '20px', display: 'flex', alignItems: 'center' }}>
                                             <Grid columns={2}>
                                                 <Grid.Column>
-                                                    <a href="https://github.com/theresa-whynot/{repoTitle}/tree/main" target="_blank" rel="noopener noreferrer">
+                                                    <a href={`https://github.com/theresa-whynot/${repoTitle}/tree/main`} target="_blank" rel="noopener noreferrer">
                                                         <Button color="blue" >
                                                             <Icon name='code branch' /> Main Branch Code Here
                                                         </Button>
                                                     </a>
                                                 </Grid.Column>
                                                 <Grid.Column>
-                                                    <a href="https://github.com/theresa-whynot/{repoTitle}/archive/main.zip">
+                                                    <a href={`https://github.com/theresa-whynot/${repoTitle}/archive/main.zip`}>
                                                         <Button color={repoColor} >
                                                             <Icon name='download' />Download Zip File
                                                         </Button>
