@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Layout from "./components/layout";
 import { Segment, Icon, Header } from "semantic-ui-react";
+import GitHubDetails from "./components/githubdetails";
 
 
 class CryptoSettle extends Component {
@@ -18,9 +19,7 @@ class CryptoSettle extends Component {
                         </Header.Subheader>
                     </Header>
                 </Segment>
-                <Segment color="blue" style={{ textAlign: 'center', marginTop: '10px' }}>
-                    <h4>COMING SOON </h4>
-                </Segment>
+                <GitHubDetails repoTitle="cryptosettle" repoColor="blue" />
             </Layout>
         );
     };

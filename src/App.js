@@ -13,6 +13,7 @@ import PerformanceReview from "./performancereviews";
 import CrowdCoin from "./crowdcoin";
 import DeveloperPortfolio from "./developerportfoio";
 import CryptoSettle from "./cryptosettle";
+import EthRiver from "./ethriver";
 import UdemyTrainings from "./udemytrainings";
 import BookReviews from "./bookreviews";
 import "./App.css";
@@ -27,6 +28,7 @@ const App = () => {
             <Route path="/crowdcoin" element={<CrowdCoin />} />
             <Route path="/developerportfoio" element={<DeveloperPortfolio />} />
             <Route path="/cryptosettle" element={<CryptoSettle />} />
+            <Route path="/ethriver" element={<EthRiver />} />
             <Route path="/udemytrainings" element={<UdemyTrainings />} />
             <Route path="/bookreviews" element={<BookReviews />} />
         </Routes>
