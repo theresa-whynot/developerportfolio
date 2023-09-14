@@ -64,6 +64,10 @@
             width: auto;
         }
 
+        .projectdetails {
+            margin-bottom: 15px !important;
+        }
+
     }
 
 @media (max-width: 420px) {
@@ -89,6 +93,10 @@
 
     .technicalskills {
         width: auto;
+    }
+
+    .projectdetails {
+        margin-bottom: 15px !important;
     }
 
 
