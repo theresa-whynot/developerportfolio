@@ -16,7 +16,7 @@ const EthRiverDocumentation = () => {
                 <Embed
                     icon='play circle'
                     placeholder='/EthRiver1.png'
-                    url='/CrowdCoinDemo.mp4'
+                    url='/EthRiverDemo.mp4'
                 />
             </Segment>
         </div>
