@@ -20,7 +20,7 @@ class CrowdCoin extends Component {
                     </Header>
                 </Segment>
 
-                <div className="desktop-crowdcoin">
+                <div className="desktop-project">
                 <Grid columns={2}>
                 <Grid.Column>
                             <GitHubDetails repoTitle="crowdcoin" repoColor="green" />
@@ -31,7 +31,7 @@ class CrowdCoin extends Component {
                     </Grid>
                 </div>
 
-                <div className="mobile-crowdcoin">
+                <div className="mobile-project">
                   
                             <CrowdCoinDocumentation />
 
