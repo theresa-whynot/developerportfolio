@@ -7,7 +7,7 @@ import "../App.css";
 
 
 
-const EthRiverDocumention = () => {
+const EthRiverDocumentation = () => {
 
     return (
         <div>
@@ -22,4 +22,4 @@ const EthRiverDocumention = () => {
         </div>
     )
 }
-export default EthRiverDocumention;
+export default EthRiverDocumentation;
