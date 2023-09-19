@@ -44,7 +44,7 @@ const NavBar = () => {
                                     This Developer Portfolio
                                 </Dropdown.Item>
                                 <Dropdown.Item as={Link} to="/ethriver">
-                                    EthRiver - COMING SOON!
+                                    EthRiver
                                 </Dropdown.Item>
                                 <Dropdown.Item as={Link} to="/cryptosettle">
                                     CryptoSettle -
