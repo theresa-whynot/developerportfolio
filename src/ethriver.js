@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Layout from "./components/layout";
-import { Segment, Icon, Header } from "semantic-ui-react";
+import { Segment, Icon, Header, Grid } from "semantic-ui-react";
 import GitHubDetails from "./components/githubdetails";
 import EthRiverDocumentation from "./components/ethriverdocumentation";
 
