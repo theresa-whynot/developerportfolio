@@ -46,6 +46,10 @@ const NavBar = () => {
                                 <Dropdown.Item as={Link} to="/ethriver">
                                     EthRiver
                                 </Dropdown.Item>
+                                <Dropdown.Item as={Link} to="/tokentalk">
+                                    TokenTalk -
+                                    COMING SOON!
+                                </Dropdown.Item>
                                 <Dropdown.Item as={Link} to="/cryptosettle">
                                     CryptoSettle -
                                     COMING SOON!
@@ -107,6 +111,9 @@ const NavBar = () => {
                                     </Dropdown.Item>
                                     <Dropdown.Item as={Link} to="/ethriver">
                                         EthRiver
+                                    </Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/tokentalk">
+                                        TokenTalk
                                     </Dropdown.Item>
                                     <Dropdown.Item as={Link} to="/cryptosettle">
                                         CryptoSettle
