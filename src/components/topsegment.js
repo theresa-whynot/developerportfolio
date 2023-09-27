@@ -16,16 +16,13 @@ const TopSegment = () => {
                 className="top-segment"
             >
                 <Image src="/profilepic.jpg" floated="left" size="small" />
-                <h2>Theresa Whynot - Blockchain Developer</h2>
+                <h2>Theresa Whynot - Web & Blockchain Developer</h2>
                 <p>
-                    Welcome to my portfolio! After 6 years spent in Software
-                    Consulting at IBM - working with clients such as Wal-Mart, New
-                    Balance, Johnson & Johnson, and Google - I am ready for a new
-                    adventure. With a year spent independently mastering
-                    blockchain fundamentals, smart contracts, and front-end
-                    development, I've honed a skill set that's fueled by an
-                    unwavering enthusiasm for programming and blockchain
-                    technology.
+                    After 6 years spent in Software Consulting at IBM - working with clients such as Google,
+                    Johson&Johnson, Wal-Mart and New Balance- I am ready for a new adventure in the
+                    software engineering world. With a year spent independently mastering web development
+                    and blockchain fundamentals, I've honed a skill set that's fueled by an unwavering
+                    enthusiasm for programming and blockchain technology. 
                 </p>
             </Segment>
         </Segment.Group>
