@@ -47,8 +47,7 @@ const NavBar = () => {
                                     EthRiver
                                 </Dropdown.Item>
                                 <Dropdown.Item as={Link} to="/tokentalk">
-                                    TokenTalk -
-                                    COMING SOON!
+                                    TokenTalk
                                 </Dropdown.Item>
                                 <Dropdown.Item as={Link} to="/cryptosettle">
                                     CryptoSettle -
