@@ -16,7 +16,7 @@ const TokenTalkDocumentation = () => {
                 <Embed
                     icon='play circle'
                     placeholder='/TokenTalk.png'
-                    url='/EthRiverDemo.mp4'
+                    url='/TokenTalkDemo.mp4'
                 />
             </Segment>
         </div>
